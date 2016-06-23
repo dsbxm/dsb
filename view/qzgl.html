@@ -29,10 +29,10 @@
             <input type="text" class="form-control" placeholder="请输入搜索的虚拟组织或部门名称"/>
             <ul class="fj">
                 <li>
-                    <a class="active"><s class="arrow_down"></s>杭州市地方税务局直属分局1（1000人）</a>
+                    <a><s class="arrow_down"></s>杭州市地方税务局直属分局1（1000人）</a>
                     <ul class="qz">
                         <li>
-                            <a><s class="arrow_down"></s>群组A</a>
+                            <a class="active"><s class="arrow_down"></s>群组A</a>
                             <ul class="fz_detail">
                                 <li><a><i></i>税务局人员（10）</a></li>
                                 <li><a><i></i>企业（10）</a></li>
@@ -52,7 +52,24 @@
             </div>
             <div class="nav_bread">
                 <ul>
-                    <li><a class="active">杭州市地方税务局分局</a></li>
+                    <li><a>杭州市地方税务局分局</a><span>&gt;</span></li>
+                    <li><a class="active">群组A</a></li>
+                </ul>
+            </div>
+            <div class="qugl_edit">
+                <ul>
+                    <li>
+                        <label for="qzmc">群组名称</label>
+                        <input type="text" id="qzmc" value="群组A" disabled>
+                    </li>
+                    <li>
+                        <label for="qyryjs">企业人员角色</label>
+                        <input type="text" id="qyryjs" value="法人/总经理" disabled>
+                    </li>
+                    <li>
+                        <label for="qgg">群公告</label>
+                        <textarea id="qgg" disabled>群公告群公告群公告群公告群公告群公告群公告群公告群公告群公告群公告群公告群公告</textarea>
+                    </li>
                 </ul>
             </div>
         </div>
