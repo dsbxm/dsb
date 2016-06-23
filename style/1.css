@@ -186,6 +186,7 @@ a {
   margin: 19px 0;
   border: 1px solid #D1D1D1;
   width: 302px;
+  min-height: 449px;
 }
 .section .qzgl_left p {
   height: 60px;
