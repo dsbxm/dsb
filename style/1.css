@@ -16,7 +16,7 @@ body {
   height: 100%;
   font-family: '΢���ź�', Microsoft YaHei, Helvetica, Tahoma;
   background-color: #fff;
-  color: #000;
+  color: #000000;
   font-size: 14px;
 }
 body:before {
@@ -29,7 +29,7 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: #2699F3;
+  color: #2699f3;
   cursor: pointer;
 }
 ol,
@@ -62,13 +62,13 @@ a {
   margin: 0 auto;
 }
 .btn {
-  background-color: #2699F3;
+  background-color: #2699f3;
   color: #fff;
 }
 .header_login,
 .header {
   height: 60px;
-  background-color: #2699F3;
+  background-color: #2699f3;
   border-bottom: 1px solid #188de4;
 }
 .header_login img,
@@ -117,16 +117,16 @@ a {
   line-height: 64px;
 }
 .section_login .login_right .login_method li:hover {
-  border-bottom: 4px solid #2699F3;
+  border-bottom: 4px solid #2699f3;
 }
 .section_login .login_right .login_method li:hover a {
-  color: #2699F3;
+  color: #2699f3;
 }
 .section_login .login_right .login_method li.active {
-  border-bottom: 4px solid #2699F3;
+  border-bottom: 4px solid #2699f3;
 }
 .section_login .login_right .login_method li.active a {
-  color: #2699F3;
+  color: #2699f3;
 }
 .section_login .login_right .login_sm img {
   margin: 44px 0 22px;
@@ -139,7 +139,7 @@ a {
   background: url(../img/refresh.png) no-repeat;
 }
 .section_login .login_right .login_sm a {
-  color: #2699F3;
+  color: #2699f3;
 }
 .section_login .login_right .login_ddzh {
   padding: 62px 17px;
@@ -184,23 +184,23 @@ a {
 .section .qzgl_left {
   float: left;
   margin: 19px 0;
-  border: 1px solid #D1D1D1;
+  border: 1px solid #d1d1d1;
   width: 302px;
   min-height: 449px;
 }
 .section .qzgl_left p {
   height: 60px;
   line-height: 60px;
-  border-bottom: 1px solid #D1D1D1;
+  border-bottom: 1px solid #d1d1d1;
   padding: 0 15px;
   font-size: 16px;
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
 }
 .section .qzgl_left p a {
   width: 82px;
   height: 24px;
   padding: 3px 20px;
-  border: 1px solid #D1D1D1;
+  border: 1px solid #d1d1d1;
   border-radius: 3px;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -214,11 +214,11 @@ a {
   background: url(../img/search.png) no-repeat 97%;
 }
 .section .qzgl_left ul a:hover {
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   color: #000;
 }
 .section .qzgl_left ul a.active {
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   color: #000;
 }
 .section .qzgl_left s.arrow_down {
@@ -235,7 +235,7 @@ a {
   background: url(../img/icon_right.png) no-repeat 60%;
 }
 .section .qzgl_left .fj {
-  border-top: 1px solid #D1D1D1;
+  border-top: 1px solid #d1d1d1;
 }
 .section .qzgl_left .fj a {
   display: block;
@@ -263,22 +263,22 @@ a {
   float: right;
   width: 762px;
   margin: 19px 0;
-  border: 1px solid #D1D1D1;
+  border: 1px solid #d1d1d1;
   min-height: 449px;
 }
 .section .qzgl_right .main_top {
   font-size: 16px;
   height: 60px;
   line-height: 60px;
-  border-bottom: 1px solid #D1D1D1;
+  border-bottom: 1px solid #d1d1d1;
   padding: 0 18px;
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
 }
 .section .qzgl_right .main_top a {
   width: 82px;
   height: 24px;
   padding: 3px 20px;
-  border: 1px solid #D1D1D1;
+  border: 1px solid #d1d1d1;
   border-radius: 3px;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -294,37 +294,37 @@ a {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   margin: 10px -8px;
-  background: #fff url(../img/search.png) no-repeat 97%;
+  background: #ffffff url(../img/search.png) no-repeat 97%;
 }
 .section .qzgl_right .nav_bread {
   height: 31px;
   line-height: 31px;
   padding-left: 12px;
-  border-bottom: 1px solid #D1D1D1;
+  border-bottom: 1px solid #d1d1d1;
 }
 .section .qzgl_right .nav_bread li {
   float: left;
 }
 .section .qzgl_right .nav_bread li a {
-  color: #2699F3;
+  color: #2699f3;
 }
 .section .qzgl_right .nav_bread li a.active {
   color: #000;
 }
 .section .qzgl_right .nav_bread li span {
-  color: #2699F3;
+  color: #2699f3;
   padding: 0 8px;
 }
 .section .qzgl_right .main_title {
   height: 49px;
-  border-bottom: 1px solid #D1D1D1;
+  border-bottom: 1px solid #d1d1d1;
   padding: 11px 0;
 }
 .section .qzgl_right .main_title span {
   display: inline-block;
   height: 28px;
   line-height: 28px;
-  border-left: 4px solid #2699F3;
+  border-left: 4px solid #2699f3;
   padding-left: 30px;
 }
 .section .qzgl_right .main_title .grlb {
@@ -340,7 +340,7 @@ a {
   float: right;
   width: 80px;
   height: 32px;
-  background-color: #2699F3;
+  background-color: #2699f3;
   color: #fff;
   margin: -3px 10px 0 0;
 }

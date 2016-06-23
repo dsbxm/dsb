@@ -1,0 +1,183 @@
+@import "variant.less";
+
+//虚拟组织机构
+p.title {
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid @border_gray;
+  padding: 0 15px;
+  font-size: 16px;
+  background-color: @bg_gray;
+  a {
+    width: 82px;
+    height: 24px;
+    padding: 3px 5px;
+    border: 1px solid @border_gray;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    font-size: 12px;
+    background-color: #fff;
+    margin-left: 9px;
+  }
+}
+
+.section_left {
+  float: left;
+  margin: 19px 0;
+  border: 1px solid @border_gray;
+  width: 302px;
+  height: 475px;
+
+  input {
+    height: 50px;
+    border: none;
+    padding-right: 35px;
+    background: url(../img/search.png) no-repeat 97%;
+  }
+  ul.fj {
+    height: 363px;
+    overflow-y: auto;
+    border-top: 1px solid @border_gray;
+    a {
+      display: block;
+      height: 48px;
+      line-height: 48px;
+    }
+    a:hover {
+      background-color: @bg_gray;
+      color: #000;
+    }
+    a.active {
+      background-color: @bg_gray;
+      color: #000;
+    }
+    ul.qz {
+      margin-left: 33px;
+    }
+    //三个图标
+    s.arrow_down {
+      display: inline-block;
+      width: 40px;
+      height: 10px;
+      background: url(../img/icon_down.png) no-repeat 60%;
+    }
+    s.arrow_right {
+      display: inline-block;
+      width: 40px;
+      height: 16px;
+      vertical-align: sub;
+      background: url(../img/icon_right.png) no-repeat 60%;
+    }
+    i.icon {
+      display: inline-block;
+      width: 30px;
+      height: 16px;
+      vertical-align: middle;
+      background: url(../img/icon_fz.png) no-repeat 50%;
+    }
+  }
+}
+
+.section_right {
+  float: right;
+  width: 762px;
+  margin: 19px 0;
+  border: 1px solid @border_gray;
+  height: 475px;
+  ul.manage {
+    margin-top: 13px;
+    :after {
+      .clear-float
+    }
+    li {
+      float: left;
+      a {
+        display: block;
+        width: 240px;
+        height: 108px;
+        line-height: 108px;
+        border-top: 6px solid #76BCF0;
+        background: @bg_gray;
+        font-size: 18px;
+        margin-left: 10px;
+        padding-left: 89px;
+        span{
+          margin-top: -8px;
+          display: inline-block;
+        }
+        &.add {
+          background:  @bg_gray url("../img/add.png") no-repeat 19px 18px;
+        }
+        &.application {
+          background:  @bg_gray url("../img/application.png") no-repeat 19px 18px;
+        }
+        &.setting {
+          background:  @bg_gray url("../img/setting.png") no-repeat 19px 18px;
+        }
+        &.active{
+          border-top-color: @base-blue;
+          color: #fff;
+          &.add {
+            background: @base-blue url("../img/add_active.png") no-repeat 19px 18px;
+          }
+          &.application {
+            background: @base-blue url("../img/application_active.png") no-repeat 19px 18px;
+          }
+          &.setting {
+            background: @base-blue url("../img/setting_active.png") no-repeat 19px center;
+          }
+        }
+      }
+    }
+  }
+  .nav_bread {
+    height: 31px;
+    line-height: 31px;
+    padding-left: 12px;
+    border-bottom: 1px solid @border_gray;
+    li {
+      float: left;
+      a {
+        color: @base-blue;
+        &.active {
+          color: #000;
+        }
+      }
+      span {
+        color: @base-blue;
+        padding: 0 8px;
+      }
+    }
+  }
+  .main_title {
+    height: 49px;
+    border-bottom: 1px solid @border_gray;
+    padding: 11px 0;
+    span {
+      display: inline-block;
+      height: 28px;
+      line-height: 28px;
+      border-left: 4px solid @base-blue;
+      padding-left: 30px;
+    }
+    .grlb {
+      background: url(../img/user.png) no-repeat 8px 4px;
+    }
+    .qylb {
+      background: url(../img/list.png) no-repeat 8px 6px;
+    }
+    .dsflb {
+      background: url(../img/icon_dsf.png) no-repeat 5px 4px;
+    }
+    button {
+      float: right;
+      width: 80px;
+      height: 32px;
+      background-color: @base-blue;
+      color: #fff;
+      margin: -3px 10px 0 0;
+    }
+  }
+}
+
