@@ -78,7 +78,7 @@
                         </thead>
                         <tbody>
                         <tr>
-                            <td class="xnzzgl1"><input type="checkbox" checked/></td>
+                            <td class="xnzzgl1"><input type="checkbox" checked data-toggle="tooltip" data-placement="top" title="企业已通过服务授权且信息完备"/></td>
                             <td><s class="success"></s></td>
                             <td>杭州孚嘉科技有限公司</td>
                             <td>12345678901234567890</td>
@@ -88,7 +88,7 @@
                             <td><a>查看</a></td>
                         </tr>
                         <tr>
-                            <td class="xnzzgl1"><input type="checkbox"/></td>
+                            <td class="xnzzgl1"><input type="checkbox" data-toggle="tooltip" data-placement="top" title="企业已通过服务授权但信息不完备"/></td>
                             <td><s class="warn"></s></td>
                             <td>杭州孚嘉科技有限公司</td>
                             <td>12345678901234567890</td>
@@ -98,7 +98,7 @@
                             <td><a>查看</a></td>
                         </tr>
                         <tr>
-                            <td class="xnzzgl1"><input type="checkbox"/></td>
+                            <td class="xnzzgl1"><input type="checkbox" data-toggle="tooltip" data-placement="top" title="企业未通过服务授权"/></td>
                             <td><s class="forbit"></s></td>
                             <td>杭州孚嘉科技有限公司</td>
                             <td>12345678901234567890</td>
@@ -117,5 +117,10 @@
 <div class="footer">
     <span>Copyright&nbsp;&copy;&nbsp;2008-2016&nbsp;杭州孚嘉科技有限公司版权所有</span>
 </div>
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>
 </body>
 </html>
