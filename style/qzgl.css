@@ -346,22 +346,15 @@ button[disabled] {
 }
 .section .qzgl_right .nav_bread {
   height: 31px;
-  line-height: 31px;
-  padding-left: 12px;
+  line-height: 30px;
   border-bottom: 1px solid #D1D1D1;
+  padding-left: 12px;
 }
-.section .qzgl_right .nav_bread li {
-  float: left;
-}
-.section .qzgl_right .nav_bread li a {
+.section .qzgl_right .nav_bread a {
   color: #2699F3;
 }
-.section .qzgl_right .nav_bread li a.active {
+.section .qzgl_right .nav_bread a.active {
   color: #000;
-}
-.section .qzgl_right .nav_bread li span {
-  color: #2699F3;
-  padding: 0 8px;
 }
 .section .qzgl_right .main_title {
   height: 49px;
