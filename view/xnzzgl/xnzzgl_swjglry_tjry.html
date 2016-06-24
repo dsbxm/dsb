@@ -45,11 +45,14 @@
         </div>
         <div class="section_right">
             <p class="title">税务局人员<a>部门编辑</a><input type="text" class="form-control" placeholder="请输入姓名"/></p>
+
             <p class="tag"><a href="#">杭州市地方税务局分局&nbsp;>&nbsp;</a><a href="#" class="active">税务局管理人员</a></p>
+
             <div class="function">
                 <span class="grlb">部门人员列表</span>
+
                 <p>
-                    <button class="btn">添&nbsp;加</button>
+                    <button class="btn" data-toggle="modal" data-target="#myModal">添&nbsp;加</button>
                     <button class="btn">导&nbsp;入</button>
                 </p>
             </div>
@@ -89,6 +92,56 @@
                         </tr>
                         </tbody>
                     </table>
+                </div>
+            </div>
+            <div class="modal fade modal_swjglry_tjry" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">人员编辑</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form class="form-horizontal add">
+                                <div class="form-group">
+                                    <label for="name" class="col-xs-3 control-label vertical_label">姓名</label>
+
+                                    <div class="col-xs-9">
+                                        <input type="text" id="name" class="form-control" placeholder="请输入姓名"/>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="tel" class="col-xs-3 control-label vertical_label">手机号</label>
+
+                                    <div class="col-xs-9">
+                                        <input type="text" id="tel" class="form-control" placeholder="请输入手机号"/>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-xs-3 control-label vertical_label">是否管理员</label>
+
+                                    <div class="col-xs-9">
+                                        <div class="dropdown">
+                                            <button class="btn btn-block btn-default dropdown-toggle button_drop" type="button" id="dropdownMenu1"
+                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                是
+                                                <span class="caret pull-right"></span>
+                                            </button>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                                <li><a href="#">是</a></li>
+                                                <li><a href="#">否</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-xs-9 col-xs-offset-3">
+                                        <button type="button" class="btn btn-block button_add">确认添加</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
