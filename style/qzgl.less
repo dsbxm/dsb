@@ -2,7 +2,7 @@
 
 html, body {
     height: 100%;
-    font-family: 'Î¢ÈíÑÅºÚ', Microsoft YaHei, Helvetica, Tahoma;
+    font-family: 'å¾®è½¯é›…é»‘', Microsoft YaHei, Helvetica, Tahoma;
     background-color: #fff;
     color: @font-color-dark;
     font-size: @font-size;
@@ -44,15 +44,15 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, label, a {
     margin: 0 auto;
 }
 
-button{
+button {
     background-color: @base-blue;
     color: #fff;
     &:hover {
-        color: #fff  !important;
+        color: #fff !important;
         background-color: #62bcff;
     }
     &:active {
-        color: #fff  !important;
+        color: #fff !important;
         background-color: #3473b1;
     }
     &[disabled] {
@@ -61,23 +61,24 @@ button{
     }
 }
 
-.btn-red{
+.btn-red {
     background-color: @btn_red;
     color: #fff;
     &:hover {
-        color: #fff  !important;
+        color: #fff !important;
         background-color: @btn_red;
     }
     &:active {
-        color: #fff  !important;
-        background-color:@btn_red;
+        color: #fff !important;
+        background-color: @btn_red;
     }
     &[disabled] {
-        color: #fff  !important;
-        background-color:@btn_red;
+        color: #fff !important;
+        background-color: @btn_red;
     }
 }
 
+/*ç™»å½•å¤´éƒ¨*/
 .header_login, .header {
     height: 60px;
     background-color: @base-blue;
@@ -87,7 +88,8 @@ button{
         float: left;
     }
 }
-/*Î²²¿*/
+
+/*å°¾éƒ¨*/
 .footer {
     height: 97px;
     background-color: #fff;
@@ -95,7 +97,8 @@ button{
     text-align: center;
     line-height: 97px;
 }
-/*µÇÂ¼Ö÷Ìå²¿·Ö*/
+
+/*ç™»å½•ä¸»ä½“éƒ¨åˆ†*/
 .section_login {
     height: 440px;
     text-align: center;
@@ -160,18 +163,21 @@ button{
                 width: 316px;
                 margin-bottom: 22px;
                 padding-left: 29px;
-                background: url(../img/psd.png) no-repeat 4%;
+                background: #fff url(../img/psd.png) no-repeat 4%;
                 &:first-child {
-                    background: url(../img/phone.png) no-repeat 4%;
+                    background: #fff url(../img/phone.png) no-repeat 4%;
                 }
             }
             button {
                 height: 48px;
+                background: @base-blue;
+                color: #fff;
             }
         }
     }
 }
-/*µÇÂ¼ºóÍ·²¿*/
+
+/*ç™»å½•åå¤´éƒ¨*/
 .header {
     span {
         color: #fff;
@@ -194,10 +200,11 @@ button{
         }
     }
 }
-/*µÇÂ¼ºóÖ÷Ìå*/
+
+/*ç™»å½•åä¸»ä½“*/
 .section {
     padding: 18px auto;
-    /*Èº×é¹ÜÀí-×ó²àÁĞ±í*/
+    /*ç¾¤ç»„ç®¡ç†-å·¦ä¾§åˆ—è¡¨*/
     .qzgl_left {
         float: left;
         margin: 19px 0;
@@ -280,7 +287,7 @@ button{
             }
         }
     }
-    /*Èº×é¹ÜÀí-ÓÒ²àÁĞ±í*/
+    /*ç¾¤ç»„ç®¡ç†-å³ä¾§åˆ—è¡¨*/
     .qzgl_right {
         float: right;
         width: 762px;
@@ -365,7 +372,7 @@ button{
                 margin: -3px 10px 0 0;
             }
         }
-        /*Èº×é¹ÜÀí-Èº×é¹ÜÀí¡¢´´½¨Èº×é¡¢Èº×é±à¼­*/
+        /*ç¾¤ç»„ç®¡ç†-ç¾¤ç»„ç®¡ç†ã€åˆ›å»ºç¾¤ç»„ã€ç¾¤ç»„ç¼–è¾‘*/
         .qugl_edit {
             li {
                 margin-top: 18px;
@@ -414,16 +421,15 @@ button{
                 button.cj {
                     width: 317px;
                 }
-                button.jsqz, button.qr {
+                button {
                     width: 140px;
                 }
-                button.jsqz {
-                    background-color: #F45F61;
+                button.btn-red {
                     margin-right: 35px;
                 }
             }
         }
-        /*Èº×é¹ÜÀí-ÆóÒµµ¼Èë*/
+        /*ç¾¤ç»„ç®¡ç†-ä¼ä¸šå¯¼å…¥*/
         .qzgl_dr {
             padding: 19px 14px;
             p {
@@ -453,7 +459,7 @@ button{
                 margin-left: 18px;
             }
         }
-        /*Èº×é¹ÜÀí-ÎŞÈº×é*/
+        /*ç¾¤ç»„ç®¡ç†-æ— ç¾¤ç»„*/
         .qzgl_wqz {
             padding: 73px 14px 0;
             ul {
@@ -475,7 +481,7 @@ button{
 
             }
         }
-        /*Èº×é¹ÜÀí-ĞéÄâ×éÖ¯ÉèÖÃ*/
+        /*ç¾¤ç»„ç®¡ç†-è™šæ‹Ÿç»„ç»‡è®¾ç½®*/
         .qzgl_xnzz {
             padding: 13px 10px;
             .dh li {
@@ -564,7 +570,7 @@ button{
                 }
             }
         }
-        /*Èº×é¹ÜÀí-±í¸ñ¹«¹²ÑùÊ½*/
+        /*ç¾¤ç»„ç®¡ç†-è¡¨æ ¼å…¬å…±æ ·å¼*/
         .qzgl_table {
             padding: 18px 11px;
             p {
@@ -631,6 +637,7 @@ button{
                     height: 38px;
                 }
             }
+            /*ä¼ä¸šå¯¼å…¥-å¯¼å…¥ç¡®è®¤ã€ä¼ä¸šæ·»åŠ ã€ç¬¬ä¸‰æ–¹æœºæ„ã€ç¬¬ä¸‰æ–¹æœºæ„æ·»åŠ ï¼ˆè¡¨æ ¼æœ‰æ»šåŠ¨æ¡ï¼‰*/
             .qzgl_box {
                 overflow: auto;
                 border-left: 1px solid @border_gray;
@@ -672,9 +679,36 @@ button{
                     }
                 }
             }
+            /*ç¬¬ä¸‰æ–¹æœºæ„ã€ç¬¬ä¸‰æ–¹æœºæ„æ·»åŠ åˆ†é¡µ*/
+            .fy {
+                margin-top: 16px;
+                &:after {
+                    .clear-float;
+                }
+                ul {
+                    float: right;
+                    li {
+                        float: left;
+                        padding: 2px 8px;
+                        margin-right: 5px;
+                        &.active {
+                            background-color: @base-blue;
+                            color: #fff;
+                        }
+                        &.next {
+                            background-color: #ccc;
+                            color: #333;
+                        }
+                    }
+                }
+                span {
+                    float: right;
+                    line-height: 24px;
+                }
+            }
         }
-        /*Èº×é¹ÜÀí-±í¸ñ¹«¹²ÑùÊ½*/
-        .qzgl_tjry {
+        /*ç¾¤ç»„ç®¡ç†-ç¨åŠ¡äººå‘˜*/
+        .qzgl_swry {
             table {
                 .tjry1 {
                     width: 3%;
@@ -693,7 +727,8 @@ button{
                 }
             }
         }
-        .qzgl_tjry_tj {
+        /*ç¾¤ç»„ç®¡ç†-ç¨åŠ¡äººå‘˜æ·»åŠ */
+        .qzgl_swry_tj {
             table {
                 .tjry_tj1 {
                     width: 6%;
@@ -711,6 +746,7 @@ button{
                 }
             }
         }
+        /*ç¾¤ç»„ç®¡ç†-ä¼ä¸šå¯¼å…¥-å¯¼å…¥ç¡®è®¤*/
         .qzgl_drqr {
             table {
                 .drqr1 {
@@ -737,9 +773,18 @@ button{
                 }
             }
         }
+        /*ç¾¤ç»„ç®¡ç†-ä¼ä¸šæ·»åŠ */
         .qzgl_qytj {
             .qrtj {
                 margin-top: 20px;
+            }
+        }
+        /*ç¾¤ç»„ç®¡ç†-ç¬¬ä¸‰æ–¹æœºæ„*/
+        .qzgl_dsfjg {}
+        /*ç¾¤ç»„ç®¡ç†-ç¬¬ä¸‰æ–¹æœºæ„æ·»åŠ */
+        .qzgl_dsfjg_tj {
+            .qrtj {
+                margin-top: 16px;
             }
         }
     }
