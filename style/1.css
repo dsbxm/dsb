@@ -81,6 +81,18 @@ button[disabled] {
   background-color: #f45f61;
   color: #fff;
 }
+.btn-red:hover {
+  color: #fff  !important;
+  background-color: #f45f61;
+}
+.btn-red:active {
+  color: #fff  !important;
+  background-color: #f45f61;
+}
+.btn-red[disabled] {
+  color: #fff  !important;
+  background-color: #f45f61;
+}
 .header_login,
 .header {
   height: 60px;

@@ -64,6 +64,18 @@ button{
 .btn-red{
     background-color: @btn_red;
     color: #fff;
+    &:hover {
+        color: #fff  !important;
+        background-color: @btn_red;
+    }
+    &:active {
+        color: #fff  !important;
+        background-color:@btn_red;
+    }
+    &[disabled] {
+        color: #fff  !important;
+        background-color:@btn_red;
+    }
 }
 
 .header_login, .header {
