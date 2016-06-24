@@ -77,6 +77,25 @@ button {
         background-color: @btn_red;
     }
 }
+.btn-gray{
+    color: #000;
+    background-color:@bg_gray;
+    &:hover {
+        color: #000 !important;
+        background-color: @bg_gray;
+    }
+    &:active {
+        color: #000 !important;
+        background-color: @bg_gray;
+    }
+    &[disabled] {
+        color: #000 !important;
+        background-color:@bg_gray;
+    }
+}
+.btn-120{
+    width: 120px;
+}
 
 /*登录头部*/
 .header_login, .header {

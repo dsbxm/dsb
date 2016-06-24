@@ -16,7 +16,7 @@ body {
   height: 100%;
   font-family: '微软雅黑', Microsoft YaHei, Helvetica, Tahoma;
   background-color: #fff;
-  color: #000;
+  color: #000000;
   font-size: 14px;
 }
 body:before {
@@ -29,7 +29,7 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: #2699F3;
+  color: #2699f3;
   cursor: pointer;
 }
 ol,
@@ -62,7 +62,7 @@ a {
   margin: 0 auto;
 }
 button {
-  background-color: #2699F3;
+  background-color: #2699f3;
   color: #fff;
 }
 button:hover {
@@ -78,26 +78,45 @@ button[disabled] {
   background-color: #f2f2f2;
 }
 .btn-red {
-  background-color: #F45F61;
+  background-color: #f45f61;
   color: #fff;
 }
 .btn-red:hover {
   color: #fff !important;
-  background-color: #F45F61;
+  background-color: #f45f61;
 }
 .btn-red:active {
   color: #fff !important;
-  background-color: #F45F61;
+  background-color: #f45f61;
 }
 .btn-red[disabled] {
   color: #fff !important;
-  background-color: #F45F61;
+  background-color: #f45f61;
+}
+.btn-gray {
+  color: #000;
+  background-color: #f1f1f1;
+}
+.btn-gray:hover {
+  color: #000 !important;
+  background-color: #f1f1f1;
+}
+.btn-gray:active {
+  color: #000 !important;
+  background-color: #f1f1f1;
+}
+.btn-gray[disabled] {
+  color: #000 !important;
+  background-color: #f1f1f1;
+}
+.btn-120 {
+  width: 120px;
 }
 /*登录头部*/
 .header_login,
 .header {
   height: 60px;
-  background-color: #2699F3;
+  background-color: #2699f3;
   border-bottom: 1px solid #188de4;
 }
 .header_login img,
@@ -148,16 +167,16 @@ button[disabled] {
   line-height: 64px;
 }
 .section_login .login_right .login_method li:hover {
-  border-bottom: 4px solid #2699F3;
+  border-bottom: 4px solid #2699f3;
 }
 .section_login .login_right .login_method li:hover a {
-  color: #2699F3;
+  color: #2699f3;
 }
 .section_login .login_right .login_method li.active {
-  border-bottom: 4px solid #2699F3;
+  border-bottom: 4px solid #2699f3;
 }
 .section_login .login_right .login_method li.active a {
-  color: #2699F3;
+  color: #2699f3;
 }
 .section_login .login_right .login_sm img {
   margin: 44px 0 22px;
@@ -170,7 +189,7 @@ button[disabled] {
   background: url(../img/refresh.png) no-repeat;
 }
 .section_login .login_right .login_sm a {
-  color: #2699F3;
+  color: #2699f3;
 }
 .section_login .login_right .login_ddzh {
   padding: 62px 17px;
@@ -181,14 +200,14 @@ button[disabled] {
   width: 316px;
   margin-bottom: 22px;
   padding-left: 29px;
-  background: #fff url(../img/psd.png) no-repeat 4%;
+  background: #ffffff url(../img/psd.png) no-repeat 4%;
 }
 .section_login .login_right .login_ddzh input:first-child {
-  background: #fff url(../img/phone.png) no-repeat 4%;
+  background: #ffffff url(../img/phone.png) no-repeat 4%;
 }
 .section_login .login_right .login_ddzh button {
   height: 48px;
-  background: #2699F3;
+  background: #2699f3;
   color: #fff;
 }
 /*登录后头部*/
@@ -221,23 +240,23 @@ button[disabled] {
 .section .qzgl_left {
   float: left;
   margin: 19px 0;
-  border: 1px solid #D1D1D1;
+  border: 1px solid #d1d1d1;
   width: 302px;
   min-height: 449px;
 }
 .section .qzgl_left p {
   height: 60px;
   line-height: 60px;
-  border-bottom: 1px solid #D1D1D1;
+  border-bottom: 1px solid #d1d1d1;
   padding: 0 15px;
   font-size: 16px;
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
 }
 .section .qzgl_left p a {
   width: 82px;
   height: 24px;
   padding: 3px 20px;
-  border: 1px solid #D1D1D1;
+  border: 1px solid #d1d1d1;
   border-radius: 3px;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -251,11 +270,11 @@ button[disabled] {
   background: url(../img/search.png) no-repeat 97%;
 }
 .section .qzgl_left ul a:hover {
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   color: #000;
 }
 .section .qzgl_left ul a.active {
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   color: #000;
 }
 .section .qzgl_left s.arrow_down {
@@ -272,7 +291,7 @@ button[disabled] {
   background: url(../img/icon_right.png) no-repeat 60%;
 }
 .section .qzgl_left .fj {
-  border-top: 1px solid #D1D1D1;
+  border-top: 1px solid #d1d1d1;
 }
 .section .qzgl_left .fj a {
   display: block;
@@ -300,7 +319,7 @@ button[disabled] {
   float: right;
   width: 762px;
   margin: 19px 0;
-  border: 1px solid #D1D1D1;
+  border: 1px solid #d1d1d1;
   min-height: 449px;
   /*群组管理-群组管理、创建群组、群组编辑*/
   /*群组管理-企业导入*/
@@ -318,15 +337,15 @@ button[disabled] {
   font-size: 16px;
   height: 60px;
   line-height: 60px;
-  border-bottom: 1px solid #D1D1D1;
+  border-bottom: 1px solid #d1d1d1;
   padding: 0 18px;
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
 }
 .section .qzgl_right .main_top a {
   width: 82px;
   height: 24px;
   padding: 3px 20px;
-  border: 1px solid #D1D1D1;
+  border: 1px solid #d1d1d1;
   border-radius: 3px;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -342,30 +361,30 @@ button[disabled] {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   margin: 10px -8px;
-  background: #fff url(../img/search.png) no-repeat 97%;
+  background: #ffffff url(../img/search.png) no-repeat 97%;
 }
 .section .qzgl_right .nav_bread {
   height: 31px;
   line-height: 30px;
-  border-bottom: 1px solid #D1D1D1;
+  border-bottom: 1px solid #d1d1d1;
   padding-left: 12px;
 }
 .section .qzgl_right .nav_bread a {
-  color: #2699F3;
+  color: #2699f3;
 }
 .section .qzgl_right .nav_bread a.active {
   color: #000;
 }
 .section .qzgl_right .function {
   height: 49px;
-  border-bottom: 1px solid #D1D1D1;
+  border-bottom: 1px solid #d1d1d1;
   padding: 11px 0;
 }
 .section .qzgl_right .function span {
   display: inline-block;
   height: 28px;
   line-height: 28px;
-  border-left: 4px solid #2699F3;
+  border-left: 4px solid #2699f3;
   padding-left: 30px;
 }
 .section .qzgl_right .function .grlb {
@@ -387,7 +406,7 @@ button[disabled] {
   float: right;
   width: 80px;
   height: 32px;
-  background-color: #2699F3;
+  background-color: #2699f3;
   color: #fff;
   margin: -3px 10px 0 0;
 }
@@ -455,7 +474,7 @@ button[disabled] {
 .section .qzgl_right .import p {
   color: #CB6537;
   border: 1px solid #FAEBCC;
-  background: #FDF8E4 url(../img/warn.png) no-repeat 1%;
+  background: #fdf8e4 url(../img/warn.png) no-repeat 1%;
   height: 38px;
   line-height: 38px;
   padding-left: 38px;
@@ -503,7 +522,7 @@ button[disabled] {
   float: left;
   width: 240px;
   height: 108px;
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   margin-left: 10px;
 }
 .section .qzgl_right .qzgl_xnzz .dh li:first-child {
@@ -516,7 +535,7 @@ button[disabled] {
   line-height: 103px;
   padding-left: 85px;
   background: url(../img/add.png) no-repeat 9%;
-  border-top: 6px solid #2699F3;
+  border-top: 6px solid #2699f3;
 }
 .section .qzgl_right .qzgl_xnzz .dh li a.wyy {
   background: url(../img/application.png) no-repeat 9%;
@@ -525,7 +544,7 @@ button[disabled] {
   background: url(../img/setting.png) no-repeat 9%;
 }
 .section .qzgl_right .qzgl_xnzz .dh li.active {
-  background-color: #2699F3;
+  background-color: #2699f3;
 }
 .section .qzgl_right .qzgl_xnzz .dh li.active a {
   color: #fff;
@@ -580,7 +599,7 @@ button[disabled] {
   height: 38px;
 }
 .section .qzgl_right .qzgl_xnzz .jsbc button:first-child {
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   color: #000;
   margin-right: 40px;
 }
@@ -592,7 +611,7 @@ button[disabled] {
 .section .qzgl_right .qzgl_table p {
   color: #FE2323;
   border: 1px solid #FAEBCC;
-  background: #FDF8E4 url(../img/delete.png) no-repeat 1%;
+  background: #fdf8e4 url(../img/delete.png) no-repeat 1%;
   height: 38px;
   line-height: 38px;
   padding-left: 28px;
@@ -602,7 +621,7 @@ button[disabled] {
   -webkit-border-radius: 3px;
 }
 .section .qzgl_right .qzgl_table table {
-  border: 1px solid #D1D1D1;
+  border: 1px solid #d1d1d1;
   border-radius: 4px;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -610,7 +629,7 @@ button[disabled] {
 .section .qzgl_right .qzgl_table table th {
   height: 42px;
   line-height: 25px;
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   border-bottom: none;
 }
 .section .qzgl_right .qzgl_table table th i {
@@ -641,7 +660,7 @@ button[disabled] {
   background: url(../img/icon_forbit.png) no-repeat;
 }
 .section .qzgl_right .qzgl_table table td a {
-  color: #2699F3;
+  color: #2699f3;
 }
 .section .qzgl_right .qzgl_table table input {
   vertical-align: text-top;
@@ -656,8 +675,8 @@ button[disabled] {
 }
 .section .qzgl_right .qzgl_table .qzgl_box {
   overflow: auto;
-  border-left: 1px solid #D1D1D1;
-  border-right: 1px solid #D1D1D1;
+  border-left: 1px solid #d1d1d1;
+  border-right: 1px solid #d1d1d1;
 }
 .section .qzgl_right .qzgl_table .qzgl_box table {
   width: 900px;
@@ -710,7 +729,7 @@ button[disabled] {
   margin-right: 5px;
 }
 .section .qzgl_right .qzgl_table .fy ul li.active {
-  background-color: #2699F3;
+  background-color: #2699f3;
   color: #fff;
 }
 .section .qzgl_right .qzgl_table .fy ul li.next {
