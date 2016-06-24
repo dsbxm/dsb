@@ -90,7 +90,7 @@ button[disabled] {
   background-color: #f45f61;
 }
 .btn-red[disabled] {
-  color: #fff  !important;
+  color: fff  !important;
   background-color: #f45f61;
 }
 .header_login,
