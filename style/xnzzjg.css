@@ -148,6 +148,7 @@ div.function .btn_large {
   /*第三方服务机构*/
   /*企业*/
   /*导入*/
+  /*税务局管理人员-添加人员*/
 }
 .section_right .dropdown button {
   height: 40px;
@@ -657,4 +658,28 @@ div.function .btn_large {
   width: 120px;
   height: 40px;
   margin-left: 18px;
+}
+.section_right .modal_swjglry_tjry {
+  width: 682px;
+  height: 355px;
+  margin: 90px auto;
+}
+.section_right .modal_swjglry_tjry .modal-dialog {
+  margin: 0;
+  width: 100%;
+}
+.section_right .modal_swjglry_tjry .modal-header {
+  height: 60px;
+  text-align: center;
+}
+.section_right .modal_swjglry_tjry .modal-body {
+  padding: 15px 85px;
+}
+.section_right .modal_swjglry_tjry .modal-body form {
+  margin: 0;
+}
+.section_right .modal_swjglry_tjry .modal-body form input,
+.section_right .modal_swjglry_tjry .modal-body form .col-xs-9 > div,
+.section_right .modal_swjglry_tjry .modal-body form button {
+  width: 314px;
 }
