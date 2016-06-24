@@ -356,28 +356,34 @@ button[disabled] {
 .section .qzgl_right .nav_bread a.active {
   color: #000;
 }
-.section .qzgl_right .main_title {
+.section .qzgl_right .function {
   height: 49px;
   border-bottom: 1px solid #D1D1D1;
   padding: 11px 0;
 }
-.section .qzgl_right .main_title span {
+.section .qzgl_right .function span {
   display: inline-block;
   height: 28px;
   line-height: 28px;
   border-left: 4px solid #2699F3;
   padding-left: 30px;
 }
-.section .qzgl_right .main_title .grlb {
+.section .qzgl_right .function .grlb {
   background: url(../img/user.png) no-repeat 8px 4px;
 }
-.section .qzgl_right .main_title .qylb {
+.section .qzgl_right .function .qylb {
   background: url(../img/list.png) no-repeat 8px 6px;
 }
-.section .qzgl_right .main_title .dsflb {
+.section .qzgl_right .function .dsflb {
   background: url(../img/icon_dsf.png) no-repeat 5px 4px;
 }
-.section .qzgl_right .main_title button {
+.section .qzgl_right .function p {
+  float: right;
+}
+.section .qzgl_right .function p > button {
+  float: left;
+}
+.section .qzgl_right .function button {
   float: right;
   width: 80px;
   height: 32px;
@@ -443,10 +449,10 @@ button[disabled] {
 .section .qzgl_right .qugl_edit li button.btn-red {
   margin-right: 35px;
 }
-.section .qzgl_right .qzgl_dr {
+.section .qzgl_right .import {
   padding: 19px 14px;
 }
-.section .qzgl_right .qzgl_dr p {
+.section .qzgl_right .import p {
   color: #CB6537;
   border: 1px solid #FAEBCC;
   background: #FDF8E4 url(../img/warn.png) no-repeat 1%;
@@ -457,17 +463,17 @@ button[disabled] {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
 }
-.section .qzgl_right .qzgl_dr div {
+.section .qzgl_right .import div {
   margin-top: 38px;
 }
-.section .qzgl_right .qzgl_dr input {
+.section .qzgl_right .import input {
   width: 447px;
   height: 40px;
   line-height: 40px;
   display: inline-block;
   vertical-align: bottom;
 }
-.section .qzgl_right .qzgl_dr button {
+.section .qzgl_right .import button {
   width: 120px;
   height: 40px;
   margin-left: 18px;
@@ -642,6 +648,7 @@ button[disabled] {
 }
 .section .qzgl_right .qzgl_table .qrtj {
   text-align: center;
+  margin-top: 20px;
 }
 .section .qzgl_right .qzgl_table .qrtj button {
   width: 120px;
@@ -762,10 +769,4 @@ button[disabled] {
 }
 .section .qzgl_right .qzgl_drqr table .invalid td {
   color: #FE2323;
-}
-.section .qzgl_right .qzgl_qytj .qrtj {
-  margin-top: 20px;
-}
-.section .qzgl_right .qzgl_dsfjg_tj .qrtj {
-  margin-top: 16px;
 }

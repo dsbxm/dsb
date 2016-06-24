@@ -336,7 +336,7 @@ button {
                 }
             }
         }
-        .main_title {
+        .function {
             height: 49px;
             border-bottom: 1px solid @border_gray;
             padding: 11px 0;
@@ -355,6 +355,12 @@ button {
             }
             .dsflb {
                 background: url(../img/icon_dsf.png) no-repeat 5px 4px;
+            }
+            p {
+                float: right;
+                > button {
+                    float: left;
+                }
             }
             button {
                 float: right;
@@ -423,7 +429,7 @@ button {
             }
         }
         /*群组管理-企业导入*/
-        .qzgl_dr {
+        .import {
             padding: 19px 14px;
             p {
                 color: #CB6537;
@@ -625,6 +631,7 @@ button {
             }
             .qrtj {
                 text-align: center;
+                margin-top: 20px;
                 button {
                     width: 120px;
                     height: 38px;
@@ -767,18 +774,7 @@ button {
             }
         }
         /*群组管理-企业添加*/
-        .qzgl_qytj {
-            .qrtj {
-                margin-top: 20px;
-            }
-        }
         /*群组管理-第三方机构*/
-        .qzgl_dsfjg {}
         /*群组管理-第三方机构添加*/
-        .qzgl_dsfjg_tj {
-            .qrtj {
-                margin-top: 16px;
-            }
-        }
     }
 }
