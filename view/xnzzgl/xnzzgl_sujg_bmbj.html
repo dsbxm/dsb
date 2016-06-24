@@ -33,9 +33,9 @@
             <input type="text" class="form-control" placeholder="请输入搜索的虚拟组织或部门名称"/>
             <ul class="fj">
                 <li>
-                    <a class="active"><s class="arrow_down"></s>杭州市地方税务局直属分局1（1000人）</a>
+                    <a><s class="arrow_down"></s>杭州市地方税务局直属分局1（1000人）</a>
                     <ul class="qz">
-                        <li><a><i class="icon"></i>税务局人员（10）</a></li>
+                        <li><a class="active"><i class="icon"></i>税务局人员（10）</a></li>
                         <li><a><i class="icon"></i>企业（10）</a></li>
                         <li><a><i class="icon"></i>第三方服务机构（10）</a></li>
                     </ul>
@@ -44,18 +44,8 @@
             </ul>
         </div>
         <div class="section_right">
-            <p class="title">杭州市地方税务局直属分局1</p>
-            <ul class="manage">
-                <li>
-                    <a href="#" class="add active"><span>添加部门</span></a>
-                </li>
-                <li>
-                    <a href="#" class="application"><span>微应用</span></a>
-                </li>
-                <li>
-                    <a href="#" class="setting"><span>设置</span></a>
-                </li>
-            </ul>
+            <p class="title">税务局人员<a>部门编辑</a></p>
+            <p class="tag"><a href="#">杭州市地方税务局分局&nbsp;>&nbsp;</a><a href="#">部门编辑</a></p>
             <form class="form-horizontal add">
                 <div class="form-group">
                     <label for="name" class="col-xs-3 control-label vertical_label">部门名称</label>
@@ -71,39 +61,46 @@
                         <div class="dropdown">
                             <button class="btn btn-block btn-default dropdown-toggle button_drop" type="button" id="dropdownMenu1"
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                企业
+                                税务机关
                                 <span class="caret pull-right"></span>
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li><a href="#">Separated link</a></li>
+                                <li><a href="#">企业</a></li>
+                                <li><a href="#">第三方服务</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="col-xs-3 control-label">成员角色</label>
+                    <label class="col-xs-3 control-label vertical_label">隐藏部门</label>
 
-                    <div class="col-xs-9 checkbox">
-                        <label class="role1">
-                            <input type="checkbox">法人/总经理
-                        </label>
-                        <label class="role1">
-                            <input type="checkbox">财务管理人员
-                        </label>
-                        <label>
-                            <input type="checkbox">办税人员
-                        </label>
+                    <div class="col-xs-4">
+                        <div class="dropdown">
+                            <button class="btn btn-block btn-default dropdown-toggle button_drop" type="button" id="dropdownMenu2"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                是
+                                <span class="caret pull-right"></span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <li><a href="#">否</a></li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="col-xs-offset-3 col-xs-9">
-                        <span class="tip">（提示：至少选中一个角色）</span>
+                        <span class="tip">（提示：隐藏后，别人从通讯录中无法看到此部门）</span>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="col-xs-9 col-xs-offset-3">
-                        <button type="button" class="btn btn-block button_add">确认添加</button>
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <button type="button" class="btn btn-block btn-red button_add ">删除部门</button>
+                            </div>
+                            <div class="col-xs-6">
+                                <button type="button" class="btn btn-block button_add">确 认</button>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </form>

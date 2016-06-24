@@ -44,18 +44,40 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, label, a {
     margin: 0 auto;
 }
 
-.btn {
+button{
     background-color: @base-blue;
     color: #fff;
     &:hover {
-        color: #fff;
+        color: #fff  !important;
+        background-color: #62bcff;
+    }
+    &:active {
+        color: #fff  !important;
+        background-color: #3473b1;
+    }
+    &[disabled] {
+        color: #b4b4b4;
+        background-color: #f2f2f2;
     }
 }
 
-input, select, textarea {
-    border: 1px solid #D1DAE3;
+.btn-red{
+    background-color: @btn_red;
+    color: #fff;
+    &:hover {
+        color: #fff  !important;
+        background-color: @btn_red;
+    }
+    &:active {
+        color: #fff  !important;
+        background-color:@btn_red;
+    }
+    &[disabled] {
+        color: #fff  !important;
+        background-color:@btn_red;
+    }
 }
-/*µÇÂ¼Í·²¿*/
+
 .header_login, .header {
     height: 60px;
     background-color: @base-blue;
@@ -722,22 +744,3 @@ input, select, textarea {
         }
     }
 }
-
-//<div class="tooltip top" role="tooltip">
-//    <div class="tooltip-arrow"></div>
-//    <div class="tooltip-inner">Some tooltip text!</div>
-//</div>
-
-//.tooltip {
-//    > .tooltip-arrow {
-//        border-top: 5px solid red !important;
-//    }
-//    .tooltip-inner {
-//        font-size: 14px;
-//        background-color: #fff;
-//        color: #000;
-//        border: 1px solid @border_gray;
-//        padding: 5px 10px;
-//    }
-//
-//}

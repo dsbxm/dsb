@@ -27,7 +27,7 @@ p.title {
   margin: 19px 0;
   border: 1px solid @border_gray;
   width: 302px;
-  height: 475px;
+  height: 425px;
 
   input {
     height: 50px;
@@ -44,16 +44,12 @@ p.title {
       height: 48px;
       line-height: 48px;
     }
-    a:hover {
-      background-color: @bg_gray;
-      color: #000;
-    }
     a.active {
       background-color: @bg_gray;
       color: #000;
     }
     ul.qz {
-      margin-left: 33px;
+      margin-left: 15px;
     }
     //三个图标
     s.arrow_down {
@@ -71,10 +67,10 @@ p.title {
     }
     i.icon {
       display: inline-block;
-      width: 30px;
+      width: 48px;
       height: 16px;
       vertical-align: middle;
-      background: url(../img/icon_fz.png) no-repeat 50%;
+      background: url(../img/icon_fz.png) no-repeat 26px 0;
     }
   }
 }
@@ -84,11 +80,13 @@ p.title {
   width: 762px;
   margin: 19px 0;
   border: 1px solid @border_gray;
-  height: 475px;
+  min-height: 425px;
+  //添加部门
+  //选项卡
   ul.manage {
     margin-top: 13px;
-    :after {
-      .clear-float
+    &:after {
+      .clear-float;
     }
     li {
       float: left;
@@ -96,26 +94,29 @@ p.title {
         display: block;
         width: 240px;
         height: 108px;
-        line-height: 108px;
         border-top: 6px solid #76BCF0;
         background: @bg_gray;
         font-size: 18px;
         margin-left: 10px;
         padding-left: 89px;
-        span{
-          margin-top: -8px;
+        span {
+          margin-top: -6px;
+          line-height: 108px;
           display: inline-block;
         }
+        &:hover {
+          color: #000;
+        }
         &.add {
-          background:  @bg_gray url("../img/add.png") no-repeat 19px 18px;
+          background: @bg_gray url("../img/add.png") no-repeat 19px 18px;
         }
         &.application {
-          background:  @bg_gray url("../img/application.png") no-repeat 19px 18px;
+          background: @bg_gray url("../img/application.png") no-repeat 19px 18px;
         }
         &.setting {
-          background:  @bg_gray url("../img/setting.png") no-repeat 19px 18px;
+          background: @bg_gray url("../img/setting.png") no-repeat 19px 18px;
         }
-        &.active{
+        &.active {
           border-top-color: @base-blue;
           color: #fff;
           &.add {
@@ -131,53 +132,69 @@ p.title {
       }
     }
   }
-  .nav_bread {
-    height: 31px;
-    line-height: 31px;
-    padding-left: 12px;
-    border-bottom: 1px solid @border_gray;
-    li {
-      float: left;
-      a {
-        color: @base-blue;
-        &.active {
-          color: #000;
+  //表单
+  form.add {
+    width: 390px;
+    margin: 36px auto 0;
+    .form-group {
+      margin-bottom: 20px;
+      .vertical_label {
+        padding-top: 10px;
+      }
+      .form-control {
+        height: 40px;
+      }
+      //复选框行
+      label.role1 {
+        margin-right: 19px;
+      }
+      div[class~="col-xs-9"],div[class~="col-xs-4"]{
+        padding-left: 0;
+      }
+      .tip {
+        display: block;
+        width: 450px;
+        margin-top: 5px;
+        margin-left: -5px;
+        color: #848484;
+      }
+      .button_add {
+        height: 40px;
+      }
+    }
+    //下拉框
+    .dropdown {
+      button {
+        height: 40px;
+        text-align: left;
+        padding-right: 30px;
+        position: relative;
+        span {
+          position: absolute;
+          right: 13px;
+          top: 16px;
         }
       }
-      span {
-        color: @base-blue;
-        padding: 0 8px;
+      .dropdown-menu {
+        width: 100%;
+        min-width: inherit;
       }
     }
   }
-  .main_title {
-    height: 49px;
+
+  //部门编辑
+  p.tag {
+    height: 31px;
+    line-height: 30px;
     border-bottom: 1px solid @border_gray;
-    padding: 11px 0;
-    span {
-      display: inline-block;
-      height: 28px;
-      line-height: 28px;
-      border-left: 4px solid @base-blue;
-      padding-left: 30px;
+    padding-left: 12px;
+    a:first-child {
+      color: @base-blue;
     }
-    .grlb {
-      background: url(../img/user.png) no-repeat 8px 4px;
-    }
-    .qylb {
-      background: url(../img/list.png) no-repeat 8px 6px;
-    }
-    .dsflb {
-      background: url(../img/icon_dsf.png) no-repeat 5px 4px;
-    }
-    button {
-      float: right;
-      width: 80px;
-      height: 32px;
-      background-color: @base-blue;
-      color: #fff;
-      margin: -3px 10px 0 0;
+    a:first-child + a {
+      color: #848484;
     }
   }
+
 }
 
