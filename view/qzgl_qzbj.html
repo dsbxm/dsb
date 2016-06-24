@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title></title>
     <link rel="stylesheet" href="../vendor/bootstrap.min.css"/>
-    <link rel="stylesheet" href="../style/1.css"/>
+    <link rel="stylesheet" href="../style/qzgl.css"/>
 </head>
 <body>
 <div class="header">
@@ -50,17 +50,12 @@
                 <span>群组A</span>
                 <a>群组编辑</a>
             </div>
-            <div class="nav_bread">
-                <ul>
-                    <li><a>杭州市地方税务局分局</a><span>&gt;</span></li>
-                    <li><a class="active">群组A</a></li>
-                </ul>
-            </div>
+            <p class="nav_bread"><a>杭州市地方税务局分局&nbsp;>&nbsp;</a><a class="active">群组A</a></p>
             <div class="qugl_edit">
                 <ul>
                     <li>
                         <label for="qzmc">群组名称</label>
-                        <input type="text" id="qzmc" value="群组名称">
+                        <input type="text" id="qzmc" value="群组名称" class="form-control"/>
                     </li>
                     <li>
                         <label>企业人员角色</label>
@@ -76,11 +71,11 @@
                     </li>
                     <li>
                         <label for="qgg">群公告</label>
-                        <textarea id="qgg">群公告群公告群公告群公告群公告群公告群公告群公告群公告群公告群公告群公告群公告</textarea>
+                        <textarea id="qgg" class="form-control">群公告群公告群公告群公告群公告群公告群公告群公告群公告群公告群公告群公告群公告</textarea>
                     </li>
                     <li>
                         <label></label>
-                        <button class="btn jsqz">解散群组</button>
+                        <button class="btn btn-red">解散群组</button>
                         <button class="btn qr">确&nbsp;认</button>
                     </li>
                 </ul>
