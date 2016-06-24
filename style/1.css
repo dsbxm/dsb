@@ -61,8 +61,24 @@ a {
   width: 990px;
   margin: 0 auto;
 }
-.btn {
+button {
   background-color: #2699f3;
+  color: #fff;
+}
+button:hover {
+  color: #fff  !important;
+  background-color: #62bcff;
+}
+button:active {
+  color: #fff  !important;
+  background-color: #3473b1;
+}
+button[disabled] {
+  color: #b4b4b4;
+  background-color: #f2f2f2;
+}
+.btn-red {
+  background-color: #f45f61;
   color: #fff;
 }
 .header_login,

@@ -44,8 +44,25 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, label, a {
     margin: 0 auto;
 }
 
-.btn {
+button{
     background-color: @base-blue;
+    color: #fff;
+    &:hover {
+        color: #fff  !important;
+        background-color: #62bcff;
+    }
+    &:active {
+        color: #fff  !important;
+        background-color: #3473b1;
+    }
+    &[disabled] {
+        color: #b4b4b4;
+        background-color: #f2f2f2;
+    }
+}
+
+.btn-red{
+    background-color: @btn_red;
     color: #fff;
 }
 
